@@ -1,0 +1,19 @@
+{
+  "name": "dearchiver-azure-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blob-download/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "func start",
+    "publish": "func azure functionapp publish dearchiver-func",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0-alpha.9",
+    "@azure/storage-blob": "^12.13.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}
